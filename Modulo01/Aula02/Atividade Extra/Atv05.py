@@ -15,4 +15,4 @@ nome_filme = input("Digite o nome do filme : ")
 gênero_filme = input("Digite o genero do filme : ")
 
 print(f"Filme: {nome_filme}; genero: {gênero_filme}; ")
-#filme: Homem-Aranha; gênero: Ação; python nome_do_arquivo.py > saida.txt
+#Filme: moon; genero: terror;

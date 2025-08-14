@@ -1,4 +1,4 @@
-﻿""" Crie um arquivo .py utilizando o vscode e construa um código que peça para 
+""" Crie um arquivo .py utilizando o vscode e construa um código que peça para 
 o usuário inserir 4 palavras, que vão ser armazenadas em 4 variáveis diferentes
 palavra 1, palavra 2, palavra 3 e palavra 4 e após isso mostre para o usuário 
 uma frase construída com as palavras passadas pelo usuário.
@@ -17,6 +17,9 @@ palavras = []
 for i in range(4):
     palavra = input(f"Digite a palavra {i+1}: ")
     palavras.append(palavra)
-print(palavras)
 for o in range(4):
     print (palavras[o], end=" ")
+
+
+# ['choveu', 'a', 'noite', 'inteira']
+#choveu a noite inteira 
