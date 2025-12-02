@@ -9,8 +9,8 @@ if conexao.is_connected():
     print("Finalmente conectou")
 cursor = conexao.cursor()
 
-# cep = input("digite o seu cep:")
-cep = "50610130"
+cep = input("digite o seu cep:")
+
 cep = cep.replace("-", "").replace(".", "").replace(" ", "")
 link = f"https://viacep.com.br/ws/{cep}/json/"
 requisicao = requests.get(link)
