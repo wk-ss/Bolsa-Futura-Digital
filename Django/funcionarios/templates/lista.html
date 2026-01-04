@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Funcionários</title>
+</head>
+<body>
+    <h1>Lista de Funcionários</h1>
+
+    <ul>
+        {% for f in funcionarios %}
+            <li>
+                {{ f.nome }} - {{ f.cargo }} - R$ {{ f.salario }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
